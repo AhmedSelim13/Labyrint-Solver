@@ -11,8 +11,8 @@ COZUM_7 = {"2": "7", "k": "x", "9": "1", "m": "t", "y": "3", "z": "6", "0": "l",
 
 
 def COZUM():
-    for satir_index in xrange(0, 9):
-        for sutun_index in xrange(0, 9):
+    for satir_index in xrange(len(LABIRENT):
+        for sutun_index in xrange(len(LABIRENT[0]):
             hucre = LABIRENT[satir_index][sutun_index]
             if hucre == "3":
                 LABIRENT[satir_index + 1][sutun_index] = COZUM_3[LABIRENT[satir_index + 1][sutun_index]]
