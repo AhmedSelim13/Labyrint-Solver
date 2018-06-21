@@ -2,7 +2,8 @@ COZUM_3 = {"1":"3","6":"8","l":"x","m":"2","9":"y","z":"5","t":"7","0":"k","a":"
 COZUM_5 = {"2":"5","7":"8","k":"y","l":"1","m":"z","x":"3","t":"6","0":"9","a":"a","b":"b"}
 COZUM_6 = {"1":"6","k":"2","l":"t","9":"z","x":"7","y":"5","0":"m","a":"a","b":"b"}
 COZUM_7 = {"2":"7","k":"x","9":"1","m":"t","y":"3","z":"6","0":"l","a":"a","b":"b"}
-LABIRENT = [[cell for cell in line.split(" ")] for line in (open("/var/mobile/Containers/Data/Application/D87FC144-AF67-436D-A0E7-41C7C54B3947/Documents/KeepData/script/Labirent.txt").read()).split("\n")]
+LABIRENT = [[cell for cell in line.split(" ")] for line in ([['y', '7', 'y', '7', '5', '2', '2', 'x', '3'], ['1', 'y', 'm', '2', '2', 'x', '3', '1', '1'], ['1', '6', 'y', '2', '7', '1', '9', 'm', 't'], ['9', '2', 'm', '2', '2', 't', '1', '3', '3'], ['9', '2', '2', '2', '2', 'k', 'm', 't', '1'], ['9', '2', '2', '2', 'x', 'z', '2', 'x', '1'], ['6', 'y', '2', '2', 'm', 'x', '3', '1', '1'], ['3', 'z', 'x', 'y', 'x', 'z', 't', 'z', 'l'], ['z', '2', 'a', 't', '6', 'b', '2', '2', 't']]
+).split("\n")]
 def COZUM():
     c = -1
     for SATIR in LABIRENT:
